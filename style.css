@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0048b7;
+    font-family: Arial, sans-serif;
+}
+
+#whiteboard {
+    border: 2px solid #000;
+    background-color: #f75990;
+    cursor: crosshair;
+    border-radius: 80px;
+}
+
+#controls {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid #fff685;
+    padding: 20px;
+    border-radius: 6px;
+    font-family: Brush Script MT;
+    font-size: larger;
+    background-color: #ff1d58;
+    box-shadow: 5px 5px #910033;
+
+}
